@@ -1,11 +1,4 @@
-#!/usr/bin/env bashi
+#!/usr/bin/env bash
+#using ssh to connect to a server
 
-# Define variables
-
-private_key="~/.ssh/school"
-user="ubuntu"
-hostname="172.17.0.4"
-
-# Connect using ssh with the specified private key and user
-
-ssh -i $private_key $user@$hostname
+ssh ubuntu -i ~/.ssh/school
