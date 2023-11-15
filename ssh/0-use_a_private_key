@@ -1,0 +1,7 @@
+#!/bin/bash
+
+private_key="~/.ssh/school"
+user="ubuntu"
+hostname="172.17.0.4"
+
+ssh -i $private_key $user@$hostname
